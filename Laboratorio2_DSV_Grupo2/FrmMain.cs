@@ -16,5 +16,11 @@ namespace Laboratorio2_DSV_Grupo2
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ConjeturaUlam objUlam = new ConjeturaUlam();
+            objUlam.Show();
+        }
     }
 }

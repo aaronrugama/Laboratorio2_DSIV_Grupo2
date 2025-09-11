@@ -28,20 +28,34 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.btnSolucion5 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // Form1
+            // btnSolucion5
+            // 
+            this.btnSolucion5.Location = new System.Drawing.Point(427, 181);
+            this.btnSolucion5.Name = "btnSolucion5";
+            this.btnSolucion5.Size = new System.Drawing.Size(75, 23);
+            this.btnSolucion5.TabIndex = 0;
+            this.btnSolucion5.Text = "Solucion 5";
+            this.btnSolucion5.UseVisualStyleBackColor = true;
+            this.btnSolucion5.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // FrmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Name = "Form1";
+            this.Controls.Add(this.btnSolucion5);
+            this.Name = "FrmMain";
             this.Text = "Menu Principal";
             this.ResumeLayout(false);
 
         }
 
         #endregion
+
+        private System.Windows.Forms.Button btnSolucion5;
     }
 }
 
