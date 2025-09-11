@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.btnSolucion5 = new System.Windows.Forms.Button();
+            this.btnProblema6 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnSolucion5
@@ -41,11 +42,22 @@
             this.btnSolucion5.UseVisualStyleBackColor = true;
             this.btnSolucion5.Click += new System.EventHandler(this.button1_Click);
             // 
+            // btnProblema6
+            // 
+            this.btnProblema6.Location = new System.Drawing.Point(580, 181);
+            this.btnProblema6.Name = "btnProblema6";
+            this.btnProblema6.Size = new System.Drawing.Size(75, 23);
+            this.btnProblema6.TabIndex = 1;
+            this.btnProblema6.Text = "Solucion 6";
+            this.btnProblema6.UseVisualStyleBackColor = true;
+            this.btnProblema6.Click += new System.EventHandler(this.btnProblema6_Click);
+            // 
             // FrmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnProblema6);
             this.Controls.Add(this.btnSolucion5);
             this.Name = "FrmMain";
             this.Text = "Menu Principal";
@@ -56,6 +68,7 @@
         #endregion
 
         private System.Windows.Forms.Button btnSolucion5;
+        private System.Windows.Forms.Button btnProblema6;
     }
 }
 
