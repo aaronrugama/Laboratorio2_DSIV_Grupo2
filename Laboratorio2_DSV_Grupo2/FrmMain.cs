@@ -22,5 +22,11 @@ namespace Laboratorio2_DSV_Grupo2
             ConjeturaUlam objUlam = new ConjeturaUlam();
             objUlam.Show();
         }
+
+        private void btnProblema6_Click(object sender, EventArgs e)
+        {
+            Votos objVotos = new Votos();
+            objVotos.Show();
+        }
     }
 }
