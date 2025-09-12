@@ -66,6 +66,12 @@
     <Compile Include="ConjeturaUlam.Designer.cs">
       <DependentUpon>ConjeturaUlam.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmInvertirNum.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmInvertirNum.Designer.cs">
+      <DependentUpon>FrmInvertirNum.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -91,6 +97,9 @@
     <EmbeddedResource Include="ConjeturaUlam.resx">
       <DependentUpon>ConjeturaUlam.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmInvertirNum.resx">
+      <DependentUpon>FrmInvertirNum.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmMain.resx">
       <DependentUpon>FrmMain.cs</DependentUpon>
     </EmbeddedResource>
@@ -102,6 +111,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="Votos.resx">
       <DependentUpon>Votos.cs</DependentUpon>
@@ -118,6 +128,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fondo Math.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fondo Math 2.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
