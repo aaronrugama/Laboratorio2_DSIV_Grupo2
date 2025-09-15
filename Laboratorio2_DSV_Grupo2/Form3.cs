@@ -20,10 +20,6 @@ namespace Laboratorio2_DSV_Grupo2
             InitializeComponent();
         }
 
-        private void txtGenero_TextChanged(object sender, EventArgs e)
-        {
-
-        }
         private void btnEjecutar_Click(object sender, EventArgs e)
         {
             int genero;

@@ -27,5 +27,25 @@ namespace Laboratorio2_DSV_Grupo2
             Votos objVotos = new Votos();
             objVotos.Show();
         }
+
+        private void btnSolucion1_Click(object sender, EventArgs e)
+        {
+            FrmPTSD objPTSD = new FrmPTSD();
+            objPTSD.Show();
+        }
+
+        private void btnSolucion3_Click(object sender, EventArgs e)
+        {
+            Fmr3 objForm3 = new Fmr3();
+            objForm3.Show();
+        }
+
+        private void btnSolucion4_Click(object sender, EventArgs e)
+        {
+            Frm4 frm4 = new Frm4();
+            frm4.Show();
+        }
+
+
     }
 }
